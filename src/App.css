@@ -1,0 +1,92 @@
+.parrent{
+    background-color:#375ed4;
+    width: 200px;
+}
+.parmar{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.a{
+    width: 1250px;
+}
+.sb{
+    color: aliceblue;
+}
+.avatar{
+    width: 193px;
+}
+.parrent1{
+    width: 0 auto;
+   display: flex; 
+   height: 50px;
+}
+.navbar{
+    display: flex;
+
+}
+.search{
+    margin-left: 4px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    margin-right: 1px;
+    margin-left: 1px;
+}
+.aa{
+    background-color: azure;
+}
+.notification{
+    display: flex;
+}
+.boardcontent{
+    display: flex;
+    justify-content: space-between;
+}
+.containerlist{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.admin{
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colorbox{
+    width: 600px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.box{
+    background-color:#4e73df ;
+}
+
+.mainchart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart,.col{
+    width: 600px;
+}
+.maincontainers{
+    display: flex;
+}
+.dashboard{
+    background-color: #f3f3f3;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+}
+.App{
+    width: 1350px;
+    background-color: #f3f3f3;
+}
