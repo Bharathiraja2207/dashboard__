@@ -79,7 +79,7 @@ if(inputValue===''|inputValue1===''|inputValue2===''|inputValue3===''){
           <TextField label="Subject" variant="filled" type="text" value={inputValue2} onChange={handleInputChange2} /><br></br>
           <TextField label="Class" variant="filled" type="text" value={inputValue3} onChange={handleInputChange3} />
         </div>
-        <div>
+        <div className='textbutton'>
           <Button variant="outlined" onClick={handleAddTodo}>Add teacher</Button>
         </div>
       </div>
