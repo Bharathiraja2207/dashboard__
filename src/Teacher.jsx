@@ -37,12 +37,17 @@ export function Teacher() {
       subject: inputValue2,
       class: inputValue3,
     };
-
-    setteacher([...teacher, newTodo]);
-    setInputValue('');
-    setInputValue1('');
-    setInputValue2('');
-    setInputValue3('');
+if(inputValue===''|inputValue1===''|inputValue2===''|inputValue3===''){
+  console.log("empty");
+  setteacher([...teacher]);
+}else{
+  setteacher([...teacher, newTodo]);
+  setInputValue('');
+  setInputValue1('');
+  setInputValue2('');
+  setInputValue3('');
+}
+   
   };
 
   const handleDeleteTodo = (todoId) => {

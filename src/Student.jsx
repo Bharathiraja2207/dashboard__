@@ -37,11 +37,16 @@ export function Student() {
       email: inputValue1,
       gender: inputValue2,
     };
-
-    setTodos([...todos, newTodo]);
-    setInputValue('');
-    setInputValue1('');
-    setInputValue2('');
+    if(inputValue===''|inputValue1===''|inputValue2===''){
+      console.log("empty");
+      setTodos([...todos]);
+    }else{
+      setTodos([...todos, newTodo]);
+      setInputValue('');
+      setInputValue1('');
+      setInputValue2('');
+    
+    }
   };
 
   const handleDeleteTodo = (todoId) => {
